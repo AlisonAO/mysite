@@ -11,19 +11,23 @@ a {
 } 
 
 #top {
-	background-color: white;
 	padding-bottom: 40px;
 	height: 50px;
-	border-width: 60px;
 	border-radius: 20px;
+	border-color: white;
+	border-right: none;
+	border-left: none;
+	border-width: 10px;
+ 	border-style: double;
 }
 
 h1 {
-	padding-top: 20px;
+	padding-top: -10px;
 	text-align: center;
 	color: white;
 	font-family: 'Manuale', serif;
 	font-size: 40px;
+
 }
 
 #vertical {
@@ -46,6 +50,7 @@ strong {
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin: 30px;
+	border-radius: 20px;
 }
 
 #middle-line {
@@ -56,6 +61,7 @@ strong {
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin: 30px;
+	border-radius: 20px;
 }
 #middle-line2 {
 	float: left;
@@ -65,6 +71,7 @@ strong {
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin: 30px;
+	border-radius: 20px;
 }
 #right-line {
 	float: left;
@@ -74,6 +81,7 @@ strong {
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin: 30px;
+	border-radius: 20px;
 }
 
 h2 {
@@ -113,7 +121,6 @@ ul {
 .sections {
 	padding: 60px;
 	border-width: 10px;
- 	border-color: black;
  	border-style: double;
  	margin: 0px 10px;
  	border-radius: 20px;
