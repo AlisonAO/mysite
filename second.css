@@ -1,0 +1,163 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+
+a { 
+	color: inherit; 
+} 
+
+#top {
+	background-color: white;
+	padding-bottom: 40px;
+	height: 50px;
+	border-width: 60px;
+	border-radius: 20px;
+}
+
+h1 {
+	padding-top: 20px;
+	text-align: center;
+	color: white;
+	font-family: 'Manuale', serif;
+	font-size: 40px;
+}
+
+#vertical {
+	/*width: 600px;*/
+	height: 700px;
+}
+
+strong {
+	background: #8e9eab;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#left-line {
+	float: left;
+	height: 100%;
+	width: 20.5%;
+	background-image: url(images/london.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 30px;
+}
+
+#middle-line {
+	float: left;
+	height: 100%;
+	width: 20.5%;
+	background-image: url(images/education.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 30px;
+}
+#middle-line2 {
+	float: left;
+	height: 100%;
+	width: 20.5%;
+	background-image: url(images/work.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 30px;
+}
+#right-line {
+	float: left;
+	height: 100%;
+	width: 20.5%;
+	background-image: url(images/code.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 30px;
+}
+
+h2 {
+	text-align: center;
+	padding-top: 80%;
+	font-family: 'Manuale', serif;
+	font-size: 30px;
+}
+
+h3 {
+	color: white;
+	text-align: center;
+	font-family: 'Manuale', serif;
+	font-size: 35px;
+}
+
+#horizontal p {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	word-spacing: 5px;
+}
+
+p {
+	color: white;
+}
+
+#text-box-one {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.sections {
+	padding: 60px;
+	border-width: 10px;
+ 	border-color: black;
+ 	border-style: double;
+ 	margin: 0px 10px;
+ 	border-radius: 20px;
+ 	margin-top: 80px;
+ 	font-size: 20px;
+	line-height: 30px;
+	border-right: none;
+	border-left: none;
+	border-color: white;
+	color: white;
+}
+
+#text-box-two {
+	margin-top: 20px;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	
+}
+
+#contact p {
+ 	text-align: center;
+ 	font-size: 20px;
+ 	font-family: 'Montserrat', sans-serif;
+ 	margin-top: 90px;
+ 	color: white;
+ }
+
+#contact {
+	margin: auto;
+	display: block;
+    margin: auto;
+    width: 15%;
+
+}
+
+.social-buttons {
+ 	width: 70px;
+ 	height: 70px;
+ 	padding: 12px;
+ 	margin-left: 10px;
+    display: inline-block;
+}
+
+
+
+
+

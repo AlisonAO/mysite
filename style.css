@@ -1,0 +1,111 @@
+
+#container {
+
+}
+
+h1 {
+	text-align: center;
+	vertical-align: middle;
+	line-height: 900px;  
+	color: #61b369;
+	-webkit-transform: rotate(340deg); /* Chrome, Safari, Opera */
+    transform: rotate(340deg);
+    font-size: 80px;
+   font-family: 'Dancing Script', cursive;
+
+}
+
+#top {
+	 background-image: url(images/top-background.jpg);
+    background-repeat: no-repeat;
+    height: 900px;
+    width: 100%;
+    display: block;
+    background-size: cover;
+	background-position: center;
+	/*background-attachment: fixed;*/
+	margin-top: -30px;
+	margin-left: -4px;
+	margin-right: 4px;
+	margin-bottom: 80px;
+}
+
+#bottom {
+
+}
+h3 {
+	font-size: 40px;
+	font-family: 'Dancing Script', cursive;
+
+}
+
+#bottom p { 
+	display: inline-block;
+	width: 1000px;
+	vertical-align: baseline;
+	vertical-align: middle;
+	line-height: 90px;
+	font-size: 30px;
+	font-family: 'Rouge Script', cursive;
+
+}
+
+.sections {
+ 	margin: 0 auto;
+ 	border-width: 10px;
+ 	border-color: yellow;
+ 	border-style: groove;
+ 	margin: 30px;
+ 	padding: 30px;
+ 	
+}
+
+.icons {
+	display: inline-block;
+    width: 200px;
+}
+
+ #text-box-one {
+	background: #fffc00; 
+  background: -webkit-linear-gradient(to right, #fffc00, #ffffff); 
+  background: linear-gradient(to right, #fffc00, #ffffff); 
+
+ }
+
+
+
+ #text-box-two {
+ 	background: #fffc00; 
+  background: -webkit-linear-gradient(to right, #fffc00, #ffffff); 
+  background: linear-gradient(to right, #fffc00, #ffffff); 
+
+ }
+
+ #text-box-three {
+ 	background: #fffc00; 
+  background: -webkit-linear-gradient(to right, #fffc00, #ffffff); 
+  background: linear-gradient(to right, #fffc00, #ffffff); 
+
+ }
+
+ #contact p {
+ 	text-align: center;
+ 	font-family: 'Rouge Script', cursive;
+ 	font-size: 60px;
+ }
+
+ #contact {
+	margin: auto;
+	display: block;
+    margin: auto;
+    width: 15%;
+
+}
+
+.social-buttons {
+ 	width: 70px;
+ 	height: 70px;
+ 	padding: 12px;
+ 	margin-left: 10px;
+    display: inline-block;
+}
